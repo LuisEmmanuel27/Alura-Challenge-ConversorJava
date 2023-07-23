@@ -39,7 +39,7 @@ Para garantizar el correcto funcionamiento del programa y evitar que se produzca
 
 2. **Selección de Opciones**: En las opciones de conversión, se valida que el usuario seleccione una opción válida. Si no se selecciona ninguna opción, el programa no realiza ninguna acción y simplemente muestra nuevamente el cuadro de diálogo de selección.
 
-3. **Recursión Limitada**: En el caso de la conversión de divisas, se ha implementado la recursión para permitir al usuario realizar varias conversiones consecutivas. Sin embargo, se ha establecido un límite para evitar el desbordamiento de la pila de llamadas y garantizar la estabilidad del programa.
+3. **Recursión Limitada**: En el caso de la conversión de divisas y temperaturas, se ha implementado la recursión para permitir al usuario realizar varias conversiones consecutivas. Sin embargo, se ha establecido un límite para evitar el desbordamiento de la pila de llamadas y garantizar la estabilidad del programa.
 
 ## Conclusiones
 
