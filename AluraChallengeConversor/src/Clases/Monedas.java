@@ -30,7 +30,7 @@ public class Monedas {
 	@Override
 	public String toString() {
 		DecimalFormat df = new DecimalFormat("#.##");
-        String formattedResult = df.format(this.result);
+        	String formattedResult = df.format(this.result);
 		
 		if(!this.tipo) {
 			return "La conversion de $" + this.valor + this.monedaMx + "a" + this.otraMoneda + "es de $" + formattedResult;
@@ -61,7 +61,6 @@ public class Monedas {
         double Eur = 18.91;
         this.otraMoneda = " Euros ";
         convert(Eur);
-        return this.result;
     }
 
     // Peso mexicano a libras esterlinas
@@ -69,7 +68,6 @@ public class Monedas {
         double LibE = 21.84;
         this.otraMoneda = " Libras esterlinas ";
         convert(LibE);
-        return this.result;
     }
 
     // Peso mexicano a yen japones
@@ -77,7 +75,6 @@ public class Monedas {
         double Yen = 0.12;
         this.otraMoneda = " Yen japones ";
         convert(Yen);
-        return this.result;
     }
 
     // Peso mexicano a won surcoreano
@@ -85,6 +82,5 @@ public class Monedas {
         double WonS = 0.013;
         this.otraMoneda = " won surcoreano ";
         convert(WonS);
-        return this.result;
     }
 }
